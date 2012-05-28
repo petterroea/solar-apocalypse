@@ -1,0 +1,16 @@
+name: SOLAR_APOCALYPSE
+main: info.nothingspecial.SOLAR_APOCALYPSE.SOLAR_APOCALYPSE
+version: B.1.2
+
+
+commands:
+  Apoc:
+      description: Solar Apocalypse admin
+      usage: use "/Apoc ?" for help
+      permission: SOLAR_APOCALYPSE.Apoc
+      permission-message: You don't have permission
+  
+permissions:
+  SOLAR_APOCALYPSE.Apoc:
+      description: Allows admin controls for Solar Apocalypse
+      default: op
